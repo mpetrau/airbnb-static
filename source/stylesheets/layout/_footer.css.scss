@@ -1,19 +1,16 @@
 /* Footer design */
 .footer{
-  background: #333333;
-  color:#CCCCC7;
+  background: $gray-darker;
+  color:$gray-lighter;
   padding: 20px 0;
-
-}
-
-.footer a{
-  color:#CCCCC7;
-  font-size: 25px;
-  margin-right:15px;
-  -webkit-transition: all 0.2s ease;
-}
-
-.footer a:hover{
-  color:yellow;
+  a{
+    color:$gray-lighter;
+    font-size: 150%;
+    margin-right:15px;
+    -webkit-transition: all 0.2s ease;
+    &:hover{
+      color:$brand-color;
+    }
+  }
 }
 

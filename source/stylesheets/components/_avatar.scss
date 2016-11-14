@@ -3,18 +3,16 @@
   border-radius: 50%;
 }
 .avatar-large {
-  width: 50px;
+  @extend .avatar;
+  width: 150%;
   border-radius: 50%;
 }
 .avatar-bordered {
-  width: 30px;
-  border-radius: 50%;
+  @extend .avatar;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  border: $gray-lighter 1px solid;
 }
 .avatar-square {
-  width: 30px;
+  @extend .avatar;
   border-radius: 0px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
 }
