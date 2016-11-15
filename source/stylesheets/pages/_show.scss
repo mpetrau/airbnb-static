@@ -1,0 +1,18 @@
+.pass {
+  color: $brand-color;
+  aria-hidden: true;
+}
+
+.miss {
+  color: $gray-light;
+  aria-hidden: true;
+}
+
+.flat-details {
+  p { font-size: 12px; }
+  strong {font-weight: regular}
+}
+
+hr {
+  border-color: $gray-light;
+}

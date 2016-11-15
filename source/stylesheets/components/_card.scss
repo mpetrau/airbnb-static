@@ -43,3 +43,15 @@
     opacity: 0.1;
   }
 }
+.flat-card {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+}
+.flat-card-owner{
+  margin: 10px 10px;
+  max-width: 120px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+}
